@@ -1,4 +1,4 @@
-package decisoes_encadeadas;
+package cont_decisoes;
 import javax.swing.JOptionPane;
 public class exe1 {
 	public static void main(String[] args) {
@@ -6,11 +6,11 @@ public class exe1 {
 		
 		double element1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o elemento um: "));
 		double element2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o elemento dois: "));
-		double element3 = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o elemento três: "));
+		double element3 = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o elemento trÃªs: "));
 		
 		
 		double media = (element1 + element2 + element3)/3;
-		JOptionPane.showMessageDialog(null, "A média dos elementos é: " + media ); //media 
+		JOptionPane.showMessageDialog(null, "A mÃ©dia dos elementos Ã©: " + media ); //media 
 		
 		double maior = 0;
 		double menor = 0;
@@ -38,7 +38,7 @@ public class exe1 {
 		if ( element2>element1){
 			menor = element1;}// teste element3
 		
-		JOptionPane.showMessageDialog(null, "O maior elemento é: " + maior + "\nO menor elemento é: " + menor);// fim maior/menor
+		JOptionPane.showMessageDialog(null, "O maior elemento Ã©: " + maior + "\nO menor elemento Ã©: " + menor);// fim maior/menor
 		
 		int faixa1 = 0;
 		int faixa2 = 0;
@@ -97,7 +97,7 @@ public class exe1 {
 			JOptionPane.showMessageDialog(null, "O elemento " + element3 + "  pertence a faixa 5.");
 			faixa5++;}// fim faixa element3
 		
-		JOptionPane.showMessageDialog(null, "A quantidade de elementos na faixa 1 é: " + faixa1 + "\nA quantidade de elementos na faixa 2 é: " + faixa2 + "\nA quantidade de elementos na faixa 3 é: " + faixa3 + "\nA quantidade de elementos na faixa 4 é: " + faixa4 + "\nA quantidade de elementos na faixa 5 é: " + faixa5);
+		JOptionPane.showMessageDialog(null, "A quantidade de elementos na faixa 1 Ã©: " + faixa1 + "\nA quantidade de elementos na faixa 2 Ã©: " + faixa2 + "\nA quantidade de elementos na faixa 3 Ã©: " + faixa3 + "\nA quantidade de elementos na faixa 4 Ã©: " + faixa4 + "\nA quantidade de elementos na faixa 5 Ã©: " + faixa5);
 // fim contagem de elementos
 		
 		
@@ -105,29 +105,29 @@ public class exe1 {
 		int impar = 0;
 		
 		if ( element1 % 2 == 0){
-			JOptionPane.showMessageDialog(null, "O elemento " + element1 + " é par.");
+			JOptionPane.showMessageDialog(null, "O elemento " + element1 + " Ã© par.");
 			par++;}
 		if ( element1 % 2 != 0){
-			JOptionPane.showMessageDialog(null, "O elemento " + element1 + " é ímpar.");
+			JOptionPane.showMessageDialog(null, "O elemento " + element1 + " Ã© Ã­mpar.");
 			impar++;}// fim par/impar element1
 		
 		
 		if ( element2 % 2 == 0){
-			JOptionPane.showMessageDialog(null, "O elemento " + element2 + " é par.");
+			JOptionPane.showMessageDialog(null, "O elemento " + element2 + " Ã© par.");
 			par++;}
 		if ( element2 % 2 != 0){
-			JOptionPane.showMessageDialog(null, "O elemento " + element2 + " é ímpar.");
+			JOptionPane.showMessageDialog(null, "O elemento " + element2 + " Ã© Ã­mpar.");
 			impar++;}// fim par/impar element2
 		
 		
 		if ( element3 % 2 == 0){
-			JOptionPane.showMessageDialog(null, "O elemento " + element3 + " é par.");
+			JOptionPane.showMessageDialog(null, "O elemento " + element3 + " Ã© par.");
 			par++;}
 		if ( element3 % 2 != 0){
-			JOptionPane.showMessageDialog(null, "O elemento " + element3 + " é ímpar.");
+			JOptionPane.showMessageDialog(null, "O elemento " + element3 + " Ã© Ã­mpar.");
 			impar++;}// fim par/impar element3
 		
-		JOptionPane.showMessageDialog(null, "O total de elementos pares é: " + par + "\nO total de elementos ímpares é: " + impar );
+		JOptionPane.showMessageDialog(null, "O total de elementos pares Ã©: " + par + "\nO total de elementos Ã­mpares Ã©: " + impar );
 		
 		System.exit(0);
 		
